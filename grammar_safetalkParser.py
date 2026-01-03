@@ -10,47 +10,48 @@ else:
 
 def serializedATN():
     return [
-        4,1,53,128,2,0,7,0,2,1,7,1,2,2,7,2,2,3,7,3,2,4,7,4,2,5,7,5,2,6,7,
+        4,1,53,131,2,0,7,0,2,1,7,1,2,2,7,2,2,3,7,3,2,4,7,4,2,5,7,5,2,6,7,
         6,2,7,7,7,2,8,7,8,2,9,7,9,2,10,7,10,2,11,7,11,2,12,7,12,2,13,7,13,
         2,14,7,14,2,15,7,15,2,16,7,16,2,17,7,17,1,0,4,0,38,8,0,11,0,12,0,
         39,1,0,1,0,1,1,1,1,1,1,1,1,3,1,48,8,1,1,2,1,2,1,2,3,2,53,8,2,1,2,
-        3,2,56,8,2,1,3,1,3,1,3,1,3,1,3,1,4,1,4,1,4,5,4,66,8,4,10,4,12,4,
-        69,9,4,1,5,1,5,1,5,5,5,74,8,5,10,5,12,5,77,9,5,1,6,1,6,1,6,1,6,1,
-        6,1,6,1,6,3,6,86,8,6,1,7,1,7,1,7,1,7,1,7,1,7,3,7,94,8,7,1,8,1,8,
-        1,8,1,8,1,9,1,9,1,9,1,9,1,9,1,10,1,10,1,10,3,10,108,8,10,1,11,1,
-        11,1,11,3,11,113,8,11,1,12,1,12,1,13,1,13,1,14,1,14,1,15,1,15,1,
-        16,1,16,1,17,1,17,1,17,1,17,0,0,18,0,2,4,6,8,10,12,14,16,18,20,22,
-        24,26,28,30,32,34,0,11,1,0,1,2,1,0,3,5,1,0,6,7,1,0,8,10,1,0,18,19,
-        1,0,20,25,1,0,26,30,1,0,31,34,1,0,35,41,1,0,42,46,1,0,48,49,124,
-        0,37,1,0,0,0,2,47,1,0,0,0,4,49,1,0,0,0,6,57,1,0,0,0,8,62,1,0,0,0,
-        10,70,1,0,0,0,12,85,1,0,0,0,14,87,1,0,0,0,16,95,1,0,0,0,18,99,1,
-        0,0,0,20,104,1,0,0,0,22,112,1,0,0,0,24,114,1,0,0,0,26,116,1,0,0,
-        0,28,118,1,0,0,0,30,120,1,0,0,0,32,122,1,0,0,0,34,124,1,0,0,0,36,
-        38,3,2,1,0,37,36,1,0,0,0,38,39,1,0,0,0,39,37,1,0,0,0,39,40,1,0,0,
-        0,40,41,1,0,0,0,41,42,5,0,0,1,42,1,1,0,0,0,43,48,3,4,2,0,44,48,3,
-        6,3,0,45,48,3,14,7,0,46,48,3,34,17,0,47,43,1,0,0,0,47,44,1,0,0,0,
-        47,45,1,0,0,0,47,46,1,0,0,0,48,3,1,0,0,0,49,50,3,24,12,0,50,52,3,
-        26,13,0,51,53,3,18,9,0,52,51,1,0,0,0,52,53,1,0,0,0,53,55,1,0,0,0,
-        54,56,3,20,10,0,55,54,1,0,0,0,55,56,1,0,0,0,56,5,1,0,0,0,57,58,7,
-        0,0,0,58,59,5,50,0,0,59,60,7,1,0,0,60,61,3,8,4,0,61,7,1,0,0,0,62,
-        67,3,10,5,0,63,64,7,2,0,0,64,66,3,10,5,0,65,63,1,0,0,0,66,69,1,0,
-        0,0,67,65,1,0,0,0,67,68,1,0,0,0,68,9,1,0,0,0,69,67,1,0,0,0,70,75,
-        3,12,6,0,71,72,7,3,0,0,72,74,3,12,6,0,73,71,1,0,0,0,74,77,1,0,0,
-        0,75,73,1,0,0,0,75,76,1,0,0,0,76,11,1,0,0,0,77,75,1,0,0,0,78,86,
-        5,51,0,0,79,86,5,50,0,0,80,86,3,28,14,0,81,82,5,11,0,0,82,83,3,8,
-        4,0,83,84,5,12,0,0,84,86,1,0,0,0,85,78,1,0,0,0,85,79,1,0,0,0,85,
-        80,1,0,0,0,85,81,1,0,0,0,86,13,1,0,0,0,87,88,5,13,0,0,88,89,3,16,
-        8,0,89,90,5,14,0,0,90,93,3,2,1,0,91,92,5,15,0,0,92,94,3,2,1,0,93,
-        91,1,0,0,0,93,94,1,0,0,0,94,15,1,0,0,0,95,96,3,8,4,0,96,97,3,30,
-        15,0,97,98,3,8,4,0,98,17,1,0,0,0,99,100,5,16,0,0,100,101,3,28,14,
-        0,101,102,3,30,15,0,102,103,3,22,11,0,103,19,1,0,0,0,104,105,5,17,
-        0,0,105,107,3,28,14,0,106,108,7,4,0,0,107,106,1,0,0,0,107,108,1,
-        0,0,0,108,21,1,0,0,0,109,113,3,8,4,0,110,113,5,52,0,0,111,113,3,
-        32,16,0,112,109,1,0,0,0,112,110,1,0,0,0,112,111,1,0,0,0,113,23,1,
-        0,0,0,114,115,7,5,0,0,115,25,1,0,0,0,116,117,7,6,0,0,117,27,1,0,
-        0,0,118,119,7,7,0,0,119,29,1,0,0,0,120,121,7,8,0,0,121,31,1,0,0,
-        0,122,123,7,9,0,0,123,33,1,0,0,0,124,125,5,47,0,0,125,126,7,10,0,
-        0,126,35,1,0,0,0,10,39,47,52,55,67,75,85,93,107,112
+        3,2,56,8,2,1,3,1,3,1,3,3,3,61,8,3,1,3,1,3,1,3,1,4,1,4,1,4,5,4,69,
+        8,4,10,4,12,4,72,9,4,1,5,1,5,1,5,5,5,77,8,5,10,5,12,5,80,9,5,1,6,
+        1,6,1,6,1,6,1,6,1,6,1,6,3,6,89,8,6,1,7,1,7,1,7,1,7,1,7,1,7,3,7,97,
+        8,7,1,8,1,8,1,8,1,8,1,9,1,9,1,9,1,9,1,9,1,10,1,10,1,10,3,10,111,
+        8,10,1,11,1,11,1,11,3,11,116,8,11,1,12,1,12,1,13,1,13,1,14,1,14,
+        1,15,1,15,1,16,1,16,1,17,1,17,1,17,1,17,0,0,18,0,2,4,6,8,10,12,14,
+        16,18,20,22,24,26,28,30,32,34,0,11,1,0,1,2,1,0,3,5,1,0,6,7,1,0,8,
+        10,1,0,18,19,1,0,20,25,1,0,26,30,1,0,31,34,1,0,35,41,1,0,42,46,1,
+        0,48,49,128,0,37,1,0,0,0,2,47,1,0,0,0,4,49,1,0,0,0,6,57,1,0,0,0,
+        8,65,1,0,0,0,10,73,1,0,0,0,12,88,1,0,0,0,14,90,1,0,0,0,16,98,1,0,
+        0,0,18,102,1,0,0,0,20,107,1,0,0,0,22,115,1,0,0,0,24,117,1,0,0,0,
+        26,119,1,0,0,0,28,121,1,0,0,0,30,123,1,0,0,0,32,125,1,0,0,0,34,127,
+        1,0,0,0,36,38,3,2,1,0,37,36,1,0,0,0,38,39,1,0,0,0,39,37,1,0,0,0,
+        39,40,1,0,0,0,40,41,1,0,0,0,41,42,5,0,0,1,42,1,1,0,0,0,43,48,3,4,
+        2,0,44,48,3,6,3,0,45,48,3,14,7,0,46,48,3,34,17,0,47,43,1,0,0,0,47,
+        44,1,0,0,0,47,45,1,0,0,0,47,46,1,0,0,0,48,3,1,0,0,0,49,50,3,24,12,
+        0,50,52,3,26,13,0,51,53,3,18,9,0,52,51,1,0,0,0,52,53,1,0,0,0,53,
+        55,1,0,0,0,54,56,3,20,10,0,55,54,1,0,0,0,55,56,1,0,0,0,56,5,1,0,
+        0,0,57,60,7,0,0,0,58,61,5,50,0,0,59,61,3,28,14,0,60,58,1,0,0,0,60,
+        59,1,0,0,0,61,62,1,0,0,0,62,63,7,1,0,0,63,64,3,8,4,0,64,7,1,0,0,
+        0,65,70,3,10,5,0,66,67,7,2,0,0,67,69,3,10,5,0,68,66,1,0,0,0,69,72,
+        1,0,0,0,70,68,1,0,0,0,70,71,1,0,0,0,71,9,1,0,0,0,72,70,1,0,0,0,73,
+        78,3,12,6,0,74,75,7,3,0,0,75,77,3,12,6,0,76,74,1,0,0,0,77,80,1,0,
+        0,0,78,76,1,0,0,0,78,79,1,0,0,0,79,11,1,0,0,0,80,78,1,0,0,0,81,89,
+        5,51,0,0,82,89,5,50,0,0,83,89,3,28,14,0,84,85,5,11,0,0,85,86,3,8,
+        4,0,86,87,5,12,0,0,87,89,1,0,0,0,88,81,1,0,0,0,88,82,1,0,0,0,88,
+        83,1,0,0,0,88,84,1,0,0,0,89,13,1,0,0,0,90,91,5,13,0,0,91,92,3,16,
+        8,0,92,93,5,14,0,0,93,96,3,2,1,0,94,95,5,15,0,0,95,97,3,2,1,0,96,
+        94,1,0,0,0,96,97,1,0,0,0,97,15,1,0,0,0,98,99,3,8,4,0,99,100,3,30,
+        15,0,100,101,3,8,4,0,101,17,1,0,0,0,102,103,5,16,0,0,103,104,3,28,
+        14,0,104,105,3,30,15,0,105,106,3,22,11,0,106,19,1,0,0,0,107,108,
+        5,17,0,0,108,110,3,28,14,0,109,111,7,4,0,0,110,109,1,0,0,0,110,111,
+        1,0,0,0,111,21,1,0,0,0,112,116,3,8,4,0,113,116,5,52,0,0,114,116,
+        3,32,16,0,115,112,1,0,0,0,115,113,1,0,0,0,115,114,1,0,0,0,116,23,
+        1,0,0,0,117,118,7,5,0,0,118,25,1,0,0,0,119,120,7,6,0,0,120,27,1,
+        0,0,0,121,122,7,7,0,0,122,29,1,0,0,0,123,124,7,8,0,0,124,31,1,0,
+        0,0,125,126,7,9,0,0,126,33,1,0,0,0,127,128,5,47,0,0,128,129,7,10,
+        0,0,129,35,1,0,0,0,11,39,47,52,55,60,70,78,88,96,110,115
     ]
 
 class grammar_safetalkParser ( Parser ):
@@ -412,11 +413,15 @@ class grammar_safetalkParser ( Parser ):
             super().__init__(parent, invokingState)
             self.parser = parser
 
+        def expression(self):
+            return self.getTypedRuleContext(grammar_safetalkParser.ExpressionContext,0)
+
+
         def ID(self):
             return self.getToken(grammar_safetalkParser.ID, 0)
 
-        def expression(self):
-            return self.getTypedRuleContext(grammar_safetalkParser.ExpressionContext,0)
+        def attribute(self):
+            return self.getTypedRuleContext(grammar_safetalkParser.AttributeContext,0)
 
 
         def getRuleIndex(self):
@@ -453,16 +458,28 @@ class grammar_safetalkParser ( Parser ):
             else:
                 self._errHandler.reportMatch(self)
                 self.consume()
-            self.state = 58
-            self.match(grammar_safetalkParser.ID)
-            self.state = 59
+            self.state = 60
+            self._errHandler.sync(self)
+            token = self._input.LA(1)
+            if token in [50]:
+                self.state = 58
+                self.match(grammar_safetalkParser.ID)
+                pass
+            elif token in [31, 32, 33, 34]:
+                self.state = 59
+                self.attribute()
+                pass
+            else:
+                raise NoViableAltException(self)
+
+            self.state = 62
             _la = self._input.LA(1)
             if not((((_la) & ~0x3f) == 0 and ((1 << _la) & 56) != 0)):
                 self._errHandler.recoverInline(self)
             else:
                 self._errHandler.reportMatch(self)
                 self.consume()
-            self.state = 60
+            self.state = 63
             self.expression()
         except RecognitionException as re:
             localctx.exception = re
@@ -514,22 +531,22 @@ class grammar_safetalkParser ( Parser ):
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 62
+            self.state = 65
             self.term()
-            self.state = 67
+            self.state = 70
             self._errHandler.sync(self)
             _la = self._input.LA(1)
             while _la==6 or _la==7:
-                self.state = 63
+                self.state = 66
                 _la = self._input.LA(1)
                 if not(_la==6 or _la==7):
                     self._errHandler.recoverInline(self)
                 else:
                     self._errHandler.reportMatch(self)
                     self.consume()
-                self.state = 64
+                self.state = 67
                 self.term()
-                self.state = 69
+                self.state = 72
                 self._errHandler.sync(self)
                 _la = self._input.LA(1)
 
@@ -583,22 +600,22 @@ class grammar_safetalkParser ( Parser ):
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 70
+            self.state = 73
             self.factor()
-            self.state = 75
+            self.state = 78
             self._errHandler.sync(self)
             _la = self._input.LA(1)
             while (((_la) & ~0x3f) == 0 and ((1 << _la) & 1792) != 0):
-                self.state = 71
+                self.state = 74
                 _la = self._input.LA(1)
                 if not((((_la) & ~0x3f) == 0 and ((1 << _la) & 1792) != 0)):
                     self._errHandler.recoverInline(self)
                 else:
                     self._errHandler.reportMatch(self)
                     self.consume()
-                self.state = 72
+                self.state = 75
                 self.factor()
-                self.state = 77
+                self.state = 80
                 self._errHandler.sync(self)
                 _la = self._input.LA(1)
 
@@ -657,31 +674,31 @@ class grammar_safetalkParser ( Parser ):
         localctx = grammar_safetalkParser.FactorContext(self, self._ctx, self.state)
         self.enterRule(localctx, 12, self.RULE_factor)
         try:
-            self.state = 85
+            self.state = 88
             self._errHandler.sync(self)
             token = self._input.LA(1)
             if token in [51]:
                 self.enterOuterAlt(localctx, 1)
-                self.state = 78
+                self.state = 81
                 self.match(grammar_safetalkParser.NUMBER)
                 pass
             elif token in [50]:
                 self.enterOuterAlt(localctx, 2)
-                self.state = 79
+                self.state = 82
                 self.match(grammar_safetalkParser.ID)
                 pass
             elif token in [31, 32, 33, 34]:
                 self.enterOuterAlt(localctx, 3)
-                self.state = 80
+                self.state = 83
                 self.attribute()
                 pass
             elif token in [11]:
                 self.enterOuterAlt(localctx, 4)
-                self.state = 81
+                self.state = 84
                 self.match(grammar_safetalkParser.T__10)
-                self.state = 82
+                self.state = 85
                 self.expression()
-                self.state = 83
+                self.state = 86
                 self.match(grammar_safetalkParser.T__11)
                 pass
             else:
@@ -740,21 +757,21 @@ class grammar_safetalkParser ( Parser ):
         self.enterRule(localctx, 14, self.RULE_conditional)
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 87
-            self.match(grammar_safetalkParser.T__12)
-            self.state = 88
-            self.logic_expr()
-            self.state = 89
-            self.match(grammar_safetalkParser.T__13)
             self.state = 90
-            self.statement()
+            self.match(grammar_safetalkParser.T__12)
+            self.state = 91
+            self.logic_expr()
+            self.state = 92
+            self.match(grammar_safetalkParser.T__13)
             self.state = 93
+            self.statement()
+            self.state = 96
             self._errHandler.sync(self)
-            la_ = self._interp.adaptivePredict(self._input,7,self._ctx)
+            la_ = self._interp.adaptivePredict(self._input,8,self._ctx)
             if la_ == 1:
-                self.state = 91
+                self.state = 94
                 self.match(grammar_safetalkParser.T__14)
-                self.state = 92
+                self.state = 95
                 self.statement()
 
 
@@ -811,11 +828,11 @@ class grammar_safetalkParser ( Parser ):
         self.enterRule(localctx, 16, self.RULE_logic_expr)
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 95
+            self.state = 98
             self.expression()
-            self.state = 96
+            self.state = 99
             self.comparator()
-            self.state = 97
+            self.state = 100
             self.expression()
         except RecognitionException as re:
             localctx.exception = re
@@ -871,13 +888,13 @@ class grammar_safetalkParser ( Parser ):
         self.enterRule(localctx, 18, self.RULE_condition_cl)
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 99
-            self.match(grammar_safetalkParser.T__15)
-            self.state = 100
-            self.attribute()
-            self.state = 101
-            self.comparator()
             self.state = 102
+            self.match(grammar_safetalkParser.T__15)
+            self.state = 103
+            self.attribute()
+            self.state = 104
+            self.comparator()
+            self.state = 105
             self.value()
         except RecognitionException as re:
             localctx.exception = re
@@ -926,15 +943,15 @@ class grammar_safetalkParser ( Parser ):
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 104
-            self.match(grammar_safetalkParser.T__16)
-            self.state = 105
-            self.attribute()
             self.state = 107
+            self.match(grammar_safetalkParser.T__16)
+            self.state = 108
+            self.attribute()
+            self.state = 110
             self._errHandler.sync(self)
             _la = self._input.LA(1)
             if _la==18 or _la==19:
-                self.state = 106
+                self.state = 109
                 _la = self._input.LA(1)
                 if not(_la==18 or _la==19):
                     self._errHandler.recoverInline(self)
@@ -995,22 +1012,22 @@ class grammar_safetalkParser ( Parser ):
         localctx = grammar_safetalkParser.ValueContext(self, self._ctx, self.state)
         self.enterRule(localctx, 22, self.RULE_value)
         try:
-            self.state = 112
+            self.state = 115
             self._errHandler.sync(self)
             token = self._input.LA(1)
             if token in [11, 31, 32, 33, 34, 50, 51]:
                 self.enterOuterAlt(localctx, 1)
-                self.state = 109
+                self.state = 112
                 self.expression()
                 pass
             elif token in [52]:
                 self.enterOuterAlt(localctx, 2)
-                self.state = 110
+                self.state = 113
                 self.match(grammar_safetalkParser.STRING)
                 pass
             elif token in [42, 43, 44, 45, 46]:
                 self.enterOuterAlt(localctx, 3)
-                self.state = 111
+                self.state = 114
                 self.ambiguous_term()
                 pass
             else:
@@ -1060,7 +1077,7 @@ class grammar_safetalkParser ( Parser ):
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 114
+            self.state = 117
             _la = self._input.LA(1)
             if not((((_la) & ~0x3f) == 0 and ((1 << _la) & 66060288) != 0)):
                 self._errHandler.recoverInline(self)
@@ -1111,7 +1128,7 @@ class grammar_safetalkParser ( Parser ):
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 116
+            self.state = 119
             _la = self._input.LA(1)
             if not((((_la) & ~0x3f) == 0 and ((1 << _la) & 2080374784) != 0)):
                 self._errHandler.recoverInline(self)
@@ -1162,7 +1179,7 @@ class grammar_safetalkParser ( Parser ):
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 118
+            self.state = 121
             _la = self._input.LA(1)
             if not((((_la) & ~0x3f) == 0 and ((1 << _la) & 32212254720) != 0)):
                 self._errHandler.recoverInline(self)
@@ -1213,7 +1230,7 @@ class grammar_safetalkParser ( Parser ):
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 120
+            self.state = 123
             _la = self._input.LA(1)
             if not((((_la) & ~0x3f) == 0 and ((1 << _la) & 4363686772736) != 0)):
                 self._errHandler.recoverInline(self)
@@ -1264,7 +1281,7 @@ class grammar_safetalkParser ( Parser ):
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 122
+            self.state = 125
             _la = self._input.LA(1)
             if not((((_la) & ~0x3f) == 0 and ((1 << _la) & 136339441844224) != 0)):
                 self._errHandler.recoverInline(self)
@@ -1315,9 +1332,9 @@ class grammar_safetalkParser ( Parser ):
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 124
+            self.state = 127
             self.match(grammar_safetalkParser.T__46)
-            self.state = 125
+            self.state = 128
             _la = self._input.LA(1)
             if not(_la==48 or _la==49):
                 self._errHandler.recoverInline(self)

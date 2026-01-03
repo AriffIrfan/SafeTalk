@@ -13,7 +13,7 @@ statement       : command
 command         : verb object condition_cl? modifier? ;
 
 /* 2. Assignment (Updated 'variable' to 'ID') */
-assignment      : ('set' | 'let') ID ('to' | 'be' | '=') expression ;
+assignment      : ('set' | 'let') (ID | attribute) ('to' | 'be' | '=') expression ;
 
 /* 3. Arithmetic */
 expression      : term (('+' | '-') term)* ;
